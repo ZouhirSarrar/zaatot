@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 INSTALL_REQUIRES = ["pyyaml"]
-_EXTRAS_REQUIRES = {"docs": ["sphinx", "furo"]}
+_EXTRAS_REQUIRES = {"docs": ["sphinx", "furo"], "tests": ["pytest"]}
 
 setup(
     name="zaatot",
